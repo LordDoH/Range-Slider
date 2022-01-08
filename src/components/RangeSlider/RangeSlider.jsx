@@ -65,12 +65,12 @@ const Slider = styled.input`
     cursor: pointer;
     border-radius: 50%;
     outline: 15px solid rgba(234, 52, 111, 0.2);
-    ::-moz-range-progress {
-      background: #ea346f;
-      border-top-left-radius: 10px;
-      border-bottom-left-radius: 10px;
-      height: 14px;
-    }
+  }
+  ::-moz-range-progress {
+    background: #ea346f;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 14px;
   }
 `;
 
